@@ -1,0 +1,80 @@
+﻿@model TPFinalCe.Models.Socio
+
+@{
+    ViewData["Title"] = "Detalles";
+}
+<link href="~/css/Estilos.css" rel="stylesheet" />
+
+
+<div class="contenedor-details-1">
+    <h1 class="h1-titulo">Detalles del socio:</h1>
+    <div class="contenedor-details-2">
+        <div>
+            <div>
+                <p class="p-details">Nombre:</p>
+            </div>
+            <div>
+                <p class="p-details-descripcion">@Html.DisplayFor(model => model.Nombre)</p>
+            </div>
+            <div>
+                <p class="p-details">Apellido:</p>
+            </div>
+            <div>
+                <p class="p-details-descripcion">@Html.DisplayFor(model => model.Apellido)</p>
+            </div>
+            <div>
+                <p class="p-details">DNI:</p>
+            </div>
+            <div>
+                <p class="p-details-descripcion">@Html.DisplayFor(model => model.DNI)</p>
+            </div>
+            <div>
+                <p class="p-details">Fecha de nacimiento:</p>
+            </div>
+            <div>
+                <p class="p-details-descripcion">@Html.DisplayFor(model => model.FechaNacimiento)</p>
+            </div>
+            <div>
+                <p class="p-details">Fecha de Alta:</p>
+            </div>
+            <div>
+                <p class="p-details-descripcion">@Html.DisplayFor(model => model.FechaAlta)</p>
+            </div>
+            <div>
+                <p class="p-details">Disciplina:</p>
+            </div>
+            <div>
+                <p class="p-details-descripcion">@Html.DisplayFor(model => model.Disciplina)</p>
+            </div>
+            <div>
+                <p class="p-details">Estado:</p>
+            </div>
+            <div>
+                <p class="p-details-descripcion">@Html.DisplayFor(model => model.Estado)</p>
+            </div>
+            <div>
+                <p class="p-details">Estado:</p>
+            </div>
+            <div>
+                <p class="p-details-descripcion">@Html.DisplayFor(model => model.Estado.Descripcion)</p>
+            </div>
+            <div>
+                <p class="p-details">Beneficios:</p>
+            </div>
+            <div>
+                <p class="p-details-descripcion">@Html.DisplayFor(model => model.Beneficios)</p>
+            </div>
+        </div>
+        <div class="c-s-2">
+            @*             <b> @Html.DisplayFor(model => model.Foto):</b>
+            *@            @if (!string.IsNullOrEmpty(@Model.Foto))//agregamos esto para poder validar si existe o no
+            {
+                <img class="foto-detalles" src="~/images/disciplinas/basquet.jpg" asp-append-version="true" />
+            }
+        </div>
+    </div>
+    <div class="contenedor-acciones">
+        <a class="btn-editar-details" asp-action="Edit" asp-route-id="@Model?.Id">Editar</a>
+        <a class="btn-volver" asp-action="Index">Volver</a>
+    </div>
+</div>

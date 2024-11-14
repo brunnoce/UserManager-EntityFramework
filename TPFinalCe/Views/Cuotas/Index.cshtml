@@ -1,0 +1,72 @@
+﻿@model IEnumerable<TPFinalCe.Models.Cuota>
+
+@{
+	ViewData["Title"] = "Index";
+}
+<link href="~/css/Estilos.css" rel="stylesheet" />
+
+<h1 class="h1-titulo">Cuotas</h1>
+
+<div class="div-btn-create">
+	<a class="btn-create-index" asp-action="Create">👉​ Agregar nueva cuota</a>
+</div>
+
+<form method="get">
+	<div class="form-group">
+		<div class="filtrado">
+			<input class="input-filtradoT" type="submit" value="Todas" name="isPagada" class="btn btn-info" />
+			<input class="input-filtradoP" type="submit" value="Pagadas" name="isPagada" class="btn btn-success" />
+			<input class="input-filtradoNP" type="submit" value="No Pagadas" name="isPagada" class="btn btn-danger" />
+		</div>
+	</div>
+</form>
+
+<table class="table">
+	<thead>
+		<tr>
+			<th class="fila-identificadores">
+				@Html.DisplayNameFor(model => model.Socio)
+			</th>
+			<th class="fila-identificadores">
+				@Html.DisplayNameFor(model => model.Monto)
+			</th>
+			<th class="fila-identificadores">
+				<p style="margin:0; padding:0;">Emision cuota</p>
+			</th>
+			<th class="fila-identificadores">
+				@Html.DisplayNameFor(model => model.FechaVencimiento)
+			</th>
+			<th class="fila-identificadores">
+				@Html.DisplayNameFor(model => model.Pagada)
+			</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+			<tr class="tabla">
+				<td class="fila-tabla">
+					@Html.DisplayFor(modelItem => item.Socio.Apellido)
+				</td>
+				<td class="fila-tabla">
+					@Html.DisplayFor(modelItem => item.Monto)
+				</td>
+				<td class="fila-tabla">
+					@Html.DisplayFor(modelItem => item.EmisionCuota)
+				</td>
+				<td class="fila-tabla">
+					@Html.DisplayFor(modelItem => item.FechaVencimiento)
+				</td>
+				<td class="fila-tabla">
+					@Html.DisplayFor(modelItem => item.Pagada)
+				</td>
+				<td class="fila-tabla">
+					<a class="btn-editar" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+					<a class="btn-detalles" asp-action="Details" asp-route-id="@item.Id">Detalles</a>
+					<a class="btn-eliminar" asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>

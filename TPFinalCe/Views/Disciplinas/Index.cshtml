@@ -1,0 +1,49 @@
+﻿@model IEnumerable<TPFinalCe.Models.Disciplina>
+
+@{
+	ViewData["Title"] = "Index";
+}
+<link href="~/css/Estilos.css" rel="stylesheet" />
+
+<h1 class="h1-titulo">Disciplinas</h1>
+
+<div class="div-btn-create">
+	<a class="btn-create-index" asp-action="Create">👉​ Agregar nueva disciplina</a>
+</div>
+<table class="table">
+	<thead>
+		<tr>
+			<th class="fila-identificadores">
+				<p p style="padding:0; margin:0;">@Html.DisplayNameFor(model => model.Nombre)</p>
+			</th>
+			<th class="fila-identificadores">
+				<p style="padding:0; margin:0;">@Html.DisplayNameFor(model => model.Foto)</p>
+			</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody class="tbody">
+		@foreach (var item in Model)
+		{
+			<tr class="tabla">
+				<td style="color:#080" class="fila-tabla">
+					@Html.DisplayFor(modelItem => item.Nombre)
+				</td>
+				<td class="fila-tabla">
+					@if (!string.IsNullOrEmpty(@item.Foto))
+					{
+						<img class="imagen-disciplina" src="~/images/disciplinas/@item.Foto" width="60"
+							  asp-append-version="true" />
+					}
+				</td >
+				<td class="fila-tabla">
+					<a class="btn-editar" asp-action="Edit" asp-route-id="@item.Id">Editar</a> 
+					<a class="btn-detalles" asp-action="Details" asp-route-id="@item.Id">Detalles</a> 
+					<a class="btn-eliminar" asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+				</td>
+
+			</tr>
+		}
+	</tbody>
+	
+</table>

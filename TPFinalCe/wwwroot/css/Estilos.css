@@ -1,0 +1,253 @@
+﻿.nav{
+    max-width:1100px;
+    margin:auto;
+}
+.logo{
+    max-width:90px;
+    max-height:90px;
+    border-radius:100%
+}
+.nav-link{
+    font-size:22px;
+    font-weight:500;
+    transition:all .3s;
+    transform: skewX(-20deg);
+
+}
+.nav-link:hover{
+    color:#ff0000 !important;
+
+}
+.contenedor-principal-home{
+    max-width:1000px;
+    margin:4% auto auto auto;
+    background-color:#fff !important;
+}
+.h1-nosotros {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #48e;
+    text-decoration:auto
+}
+.p-nosotros {
+    transform: skewX(-20deg);
+    text-align: center;
+    font-size: 25px;
+    font-weight:700;
+}
+
+.btn-create-index{
+    color:#48e;
+    text-decoration:none;
+    font-weight:500;
+    font-size:28px;
+}
+.div-btn-create {
+    margin: 10px 0 15px 0;
+}
+.h1-titulo{
+    color:#46f;
+    font-size:34px;
+    margin:10px 0 10px 0;
+   font-weight:600
+}
+.filtrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filtros{
+    margin:20px 20px 20px 20px;
+}
+.btn-filtrar{
+    font-size:20px;
+    height:50%;
+    background-color:#48e;
+    border-radius:.7rem;
+    border:none;
+    color:#fff;
+    transition:all .3s;
+    padding:2px 10px 2px 10px;
+}
+.btn-filtrar:hover{
+    background-color:#35f;
+}
+.filtros input{
+    margin-left:8px;
+}
+.filtros select {
+    margin-left: 8px;
+}
+
+
+.btn-editar {
+    margin: 10px;
+    padding: 6px;
+    background-color: grey;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: #fff;
+    transition: all .4s;
+}
+
+.btn-eliminar {
+    margin: 10px;
+    padding: 6px;
+    background-color: red;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: #fff;
+    transition: all .4s;
+}
+
+.btn-detalles {
+    margin: 10px;
+    padding: 6px;
+    background-color: lightblue;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: #fff;
+    transition: all .4s;
+}
+
+.btn-editar:hover, .btn-eliminar:hover, .btn-detalles:hover {
+        margin: 6px;
+        padding: 10px;
+        color: #fff;
+}
+.tabla {
+    height: 70px;
+    margin: auto;
+}
+
+.fila-tabla {
+    text-align: center;
+    vertical-align: middle;
+}
+.imagen-disciplina{
+    width:70px;
+    height:70px;
+    border-radius:100%;
+    border:none;
+}
+.fila-identificadores {
+    text-align: center;
+    margin: auto;
+}
+
+.input-filtradoT {
+    margin-right: 40px;
+    color: #fff;
+    Background-color:#62c8fb;
+    padding:.4rem .8rem;
+    border:none;
+    border-radius:10px;
+    font-size:20px;
+    transition:all .4s;
+}
+.input-filtradoP {
+    margin-right: 40px;
+    color: #fff;
+    Background-color: #74ec2c;
+    padding: .4rem .8rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: all .4s;
+}
+.input-filtradoNP {
+    margin-right: 40px;
+    color: #fff;
+    Background-color: #ff003e;
+    padding: .4rem .8rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: all .4s;
+}
+.input-filtradoT:hover {
+    Background-color: #0daeff;
+}
+.input-filtradoP:hover {
+    Background-color: #50d400;
+}
+.input-filtradoNP:hover {
+    Background-color: #ca0938;
+}
+
+.contenedor-principal{
+    max-width:600px;
+    margin:auto;
+}
+.contenedor-volver-crear{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.btn-volver {
+    padding: 6px 12px;
+    margin: 8px 15px 8px 0;
+    background-color: #ff0000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: .3rem;
+    color:#fff;
+    transition: all .4s;
+}
+    .btn-volver:hover {
+        background-color: #c80a0a;
+        color: #fff;
+    }
+
+.contenedor-details-1 {
+    max-width: 600px;
+    margin: 40px auto 0 auto;
+    background-color:rgb(220, 220,220);
+    padding: 35px;
+    border-radius: 1rem;
+    border: 4px dashed rgb(100,100,100)
+}
+.btn-editar-details {
+    padding: 6px 12px;
+    margin: 8px 15px 8px 0;
+    background-color: rgb(150,150,150);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: .3rem;
+    color: #fff;
+    transition: all .4s;
+}
+.btn-editar-details:hover{
+    color:#fff;
+    background-color:rgb(130,130,130)
+}
+.div-identificadores{
+    margin:20px;
+}
+.h1-details{
+    margin:auto;
+}
+.contenedor-details-2{
+    display:flex;
+    justify-content:space-between;
+}
+.contenedor-acciones{
+    margin-top:20px;
+    text-align:center;
+}
+.foto-detalles{
+    width:150px;
+}
+.p-details {
+    margin: 20px;
+    padding: 0;
+    font-size: 25px;
+    font-weight: 700;
+}
+.p-details-descripcion {
+    margin: 20px;
+    font-size: 25px;
+    padding: 0;
+}

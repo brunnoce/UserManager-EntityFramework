@@ -1,0 +1,53 @@
+﻿@model IEnumerable<TPFinalCe.Models.Socio>
+
+@{
+    ViewData["Title"] = "Socios";
+}
+<link href="~/css/Estilos.css" rel="stylesheet" />
+
+<h1 class="h1-titulo">Socios</h1>
+
+<form asp-action="PublicIndex" method="get" class="filtrado">
+    <p class="filtros"> <b>Nombre:</b> <input type="text" name="busquedaNombre" /></p>
+    <p class="filtros"> <b>Disciplina:</b> <select name="disciplinaId" asp-items="ViewBag.DisciplinaId"><option value="">Todas</option></select></p>
+    <input class="btn-filtrar" type="submit" value="Filtrar" />
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th class="fila-identificadores">@Html.DisplayNameFor(model => model.Nombre)</th>
+            <th class="fila-identificadores">@Html.DisplayNameFor(model => model.Apellido)</th>
+            <th class="fila-identificadores">@Html.DisplayNameFor(model => model.DNI)</th>
+            <th class="fila-identificadores">@Html.DisplayNameFor(model => model.FechaNacimiento)</th>
+            <th class="fila-identificadores">@Html.DisplayNameFor(model => model.Foto)</th>
+            <th class="fila-identificadores">@Html.DisplayNameFor(model => model.FechaAlta)</th>
+            <th class="fila-identificadores">@Html.DisplayNameFor(model => model.Disciplina.Foto)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="tabla">
+                <td class="fila-tabla">@Html.DisplayFor(modelItem => item.Nombre)</td>
+                <td class="fila-tabla">@Html.DisplayFor(modelItem => item.Apellido)</td>
+                <td class="fila-tabla">@Html.DisplayFor(modelItem => item.DNI)</td>
+                <td class="fila-tabla">@Html.DisplayFor(modelItem => item.FechaNacimiento)</td>
+                <td class="fila-tabla">
+                    @if (!string.IsNullOrEmpty(item.Foto))
+                    {
+                        <img src="~/images/socios/@item.Foto" width="60" class="rounded-circle" asp-append-version="true" />
+                    }
+                </td>
+                <td class="fila-tabla">@Html.DisplayFor(modelItem => item.FechaAlta)</td>
+                <td class="fila-tabla">
+                    @if (!string.IsNullOrEmpty(item.Disciplina.Foto))
+                    {
+                        <img class="imagen-disciplina" src="~/images/disciplinas/@item.Disciplina.Foto" width="60" class="rounded-circle" asp-append-version="true" />
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

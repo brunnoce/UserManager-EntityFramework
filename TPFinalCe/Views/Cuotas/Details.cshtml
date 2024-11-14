@@ -1,0 +1,49 @@
+﻿@model TPFinalCe.Models.Cuota
+
+@{
+    ViewData["Title"] = "Detalles";
+}
+<link href="~/css/Estilos.css" rel="stylesheet" />
+
+
+<div class="contenedor-details-1">
+    <h1 class="h1-titulo">Detalles disciplina:</h1>
+    <div class="contenedor-details-2">
+        <div>
+            <div>
+                <p class="p-details">Socio:</p>
+            </div>
+            <div>
+                <p class="p-details-descripcion">@Html.DisplayFor(model => model.Socio.Apellido)</p>
+            </div>
+            <div>
+                <p class="p-details">Monto:</p>
+            </div>
+            <div>
+                <p class="p-details-descripcion">@Html.DisplayFor(model => model.Monto)</p>
+            </div>
+            <div>
+                <p class="p-details">Emision Cuota:</p>
+            </div>
+            <div>
+                <p class="p-details-descripcion">@Html.DisplayFor(model => model.EmisionCuota)</p>
+            </div>
+            <div>
+                <p class="p-details">Fecha vencimiento:</p>
+            </div>
+            <div>
+                <p class="p-details-descripcion">@Html.DisplayFor(model => model.FechaVencimiento)</p>
+            </div>
+            <div>
+                <p class="p-details">Pagada:</p>
+            </div>
+            <div>
+                <p class="p-details-descripcion">@Html.DisplayFor(model => model.Pagada)</p>
+            </div>
+        </div>
+    </div>
+    <div class="contenedor-acciones">
+        <a class="btn-editar-details" asp-action="Edit" asp-route-id="@Model?.Id">Editar</a>
+        <a class="btn-volver" asp-action="Index">Volver</a>
+    </div>
+</div>

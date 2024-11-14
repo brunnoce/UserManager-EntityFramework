@@ -1,0 +1,37 @@
+﻿@model IEnumerable<TPFinalCe.Models.Beneficios>
+
+@{
+	ViewData["Title"] = "Index";
+}
+<link href="~/css/Estilos.css" rel="stylesheet" />
+
+<h1>Index</h1>
+
+<p>
+	<a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+	<thead>
+		<tr>
+			<th class="fila-identificadores">
+				@Html.DisplayNameFor(model => model.Descripcion)
+			</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+			<tr class="tabla">
+				<td class="fila-tabla">
+					@Html.DisplayFor(modelItem => item.Descripcion)
+				</td>
+				<td class="fila-tabla">
+					<a class="btn-editar" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+					<a class="btn-detalles" asp-action="Details" asp-route-id="@item.Id">Detalles</a>
+					<a class="btn-eliminar" asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>

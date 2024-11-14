@@ -1,0 +1,76 @@
+﻿@model TPFinalCe.Models.Socio
+
+@{
+    ViewData["Title"] = "Editar";
+}
+<link href="~/css/Estilos.css" rel="stylesheet" />
+
+<h1>Editar Socio</h1>
+
+<div class="contenedor-principal">
+    <h1 class="h1-titulo">Editar socio</h1>
+    <div class="contenedor-secundario">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Nombre" class="control-label"></label>
+                <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Apellido" class="control-label"></label>
+                <input asp-for="Apellido" class="form-control" />
+                <span asp-validation-for="Apellido" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DNI" class="control-label"></label>
+                <input asp-for="DNI" class="form-control" />
+                <span asp-validation-for="DNI" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaNacimiento" class="control-label"></label>
+                <input asp-for="FechaNacimiento" class="form-control" />
+                <span asp-validation-for="FechaNacimiento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaAlta" class="control-label"></label>
+                <input asp-for="FechaAlta" class="form-control" />
+                <span asp-validation-for="FechaAlta" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DisciplinaId" class="control-label"></label>
+                <select asp-for="DisciplinaId" class="form-control" asp-items="ViewBag.DisciplinaId"></select>
+                <span asp-validation-for="DisciplinaId" class="text-danger"></span>
+            </div>
+            @* <div class="form-group">
+                <label asp-for="EstadoId" class="control-label"></label>
+                <select asp-for="EstadoId" class="form-control" asp-items="ViewBag.EstadoId"></select>
+                <span asp-validation-for="EstadoId" class="text-danger"></span>
+            </div> *@
+           @*  <div class="form-group">
+                <label asp-for="Beneficios" class="control-label"></label>
+                <input asp-for="Beneficios" class="form-control" />
+                <span asp-validation-for="Beneficios" class="text-danger"></span>
+            </div> *@
+            <div>
+                <img src="@(string.IsNullOrEmpty(Model.Foto) ? "https://via.placeholder.com/150" : Url.Content("~/images/socios/" + Model.Foto))"
+                     id="imagen" class="rounded-circle" width="60" />
+                <br />
+                <label asp-for="Foto" class="control-label">Seleccionar nueva imagen</label>
+                <input asp-for="Foto" type="file" id="seleccionImg" accept="image/*" class="form-control" />
+            </div>
+            <input type="hidden" asp-for="Foto" />
+            <div class="contenedor-volver-crear">
+                <input type="submit" value="Guaardar" class="btn btn-primary" />
+                <a class="btn-volver" asp-action="Index">Volver</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="~/js/cargarfoto.js"></script>

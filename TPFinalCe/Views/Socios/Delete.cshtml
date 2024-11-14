@@ -1,0 +1,81 @@
+﻿@model TPFinalCe.Models.Socio
+
+@{
+    ViewData["Title"] = "Eliminar";
+}
+<link href="~/css/Estilos.css" rel="stylesheet" />
+
+
+<div class="contenedor-details-1">
+    <h1 class="h1-titulo">Desea eliminar el socio?</h1>
+    <div class="contenedor-details-2">
+        <div>
+            <div>
+                <p class="p-details">Nombre:</p>
+            </div>
+            <div>
+                <p class="p-details-descripcion">@Html.DisplayFor(model => model.Nombre)</p>
+            </div>
+            <div>
+                <p class="p-details">Apellido:</p>
+            </div>
+            <div>
+                <p class="p-details-descripcion">@Html.DisplayFor(model => model.Apellido)</p>
+            </div>
+            <div>
+                <p class="p-details">DNI:</p>
+            </div>
+            <div>
+                <p class="p-details-descripcion">@Html.DisplayFor(model => model.DNI)</p>
+            </div>
+            <div>
+                <p class="p-details">Fecha nacimiento:</p>
+            </div>
+            <div>
+                <p class="p-details-descripcion">@Html.DisplayFor(model => model.FechaNacimiento)</p>
+            </div>
+            <div>
+                <p class="p-details">Fecha de alta:</p>
+            </div>
+            <div>
+                <p class="p-details-descripcion">@Html.DisplayFor(model => model.FechaAlta)</p>
+            </div>
+            <div>
+                <p class="p-details">Estado:</p>
+            </div>
+            <div>
+                <p class="p-details-descripcion">@Html.DisplayFor(model => model.Estado.Descripcion)</p>
+            </div>
+            <div>
+                <p class="p-details">Beneficios:</p>
+            </div>
+            <div>
+                <p class="p-details-descripcion">@Html.DisplayFor(model => model.Beneficios)</p>
+            </div>
+
+        </div>
+        <div>
+            <div class="c-s-2">
+                <p class="p-foto-detalles"><b>● Foto: </b></p>
+                @if (!string.IsNullOrEmpty(@Model.Foto))//agregamos esto para poder validar si existe o no
+                {
+                    <img class="foto-detalles" src="~/images/relojes/@Model.Foto" asp-append-version="true" />
+                }
+            </div>
+            <div>
+                <p class="p-foto-detalles"><b>● Foto Disciplina: </b></p>
+                @if (!string.IsNullOrEmpty(@Model.Foto))//agregamos esto para poder validar si existe o no
+                {
+                    <img class="foto-detalles" src="~/images/disciplinas/@Model.Disciplina.Foto" asp-append-version="true" />
+                }
+            </div>
+        </div>
+
+    </div>
+    <form class="contenedor-acciones" asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input class="btn-eliminar" type="submit" value="Eliminar" class="btn btn-danger" />
+        <a class="btn-editar" asp-action="Index">Volver</a>
+    </form>
+</div>
+

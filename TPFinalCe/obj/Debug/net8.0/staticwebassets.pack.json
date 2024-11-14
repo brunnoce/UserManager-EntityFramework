@@ -1,0 +1,433 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TPFinalCe.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TPFinalCe.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\css\\Estilos.css",
+      "PackagePath": "staticwebassets\\css\\Estilos.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\disciplinas\\basquet.jpg",
+      "PackagePath": "staticwebassets\\images\\disciplinas\\basquet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\disciplinas\\futboljuvenil.jpg",
+      "PackagePath": "staticwebassets\\images\\disciplinas\\futboljuvenil.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\disciplinas\\futbolmayor.jpg",
+      "PackagePath": "staticwebassets\\images\\disciplinas\\futbolmayor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\disciplinas\\padel.jpg",
+      "PackagePath": "staticwebassets\\images\\disciplinas\\padel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\disciplinas\\tenis.jpg",
+      "PackagePath": "staticwebassets\\images\\disciplinas\\tenis.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\disciplinas\\voley.jpg",
+      "PackagePath": "staticwebassets\\images\\disciplinas\\voley.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\logo\\Logo.jpg",
+      "PackagePath": "staticwebassets\\images\\logo\\Logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\logo\\novedades.png",
+      "PackagePath": "staticwebassets\\images\\logo\\novedades.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\logo\\novedadesrec.png",
+      "PackagePath": "staticwebassets\\images\\logo\\novedadesrec.png"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\0ef2752eba0a4b53a72e3e6d0e97bd00.jpg",
+      "PackagePath": "staticwebassets\\images\\socios\\0ef2752eba0a4b53a72e3e6d0e97bd00.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\1e5dfd7ce702438fbaa8addfa64e23ac.jpg",
+      "PackagePath": "staticwebassets\\images\\socios\\1e5dfd7ce702438fbaa8addfa64e23ac.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\2030da930c3e4e999467561e6c5bf187.jpg",
+      "PackagePath": "staticwebassets\\images\\socios\\2030da930c3e4e999467561e6c5bf187.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\354c38a0bf80426f8fa0c45073e4109d.jpeg",
+      "PackagePath": "staticwebassets\\images\\socios\\354c38a0bf80426f8fa0c45073e4109d.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\36507103d3b1436c93be27180f1624ac.jpg",
+      "PackagePath": "staticwebassets\\images\\socios\\36507103d3b1436c93be27180f1624ac.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\3893391cb8ae4e40bf761efcc34f6a8b.jpg",
+      "PackagePath": "staticwebassets\\images\\socios\\3893391cb8ae4e40bf761efcc34f6a8b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\535741b656d44217b0ac27f17dbc25c7.jpg",
+      "PackagePath": "staticwebassets\\images\\socios\\535741b656d44217b0ac27f17dbc25c7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\69bfeed0842c402bb6ea91773c5e8912.jpg",
+      "PackagePath": "staticwebassets\\images\\socios\\69bfeed0842c402bb6ea91773c5e8912.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\80dd1e5c96e649c6a8ef150ab64e59c9.jpg",
+      "PackagePath": "staticwebassets\\images\\socios\\80dd1e5c96e649c6a8ef150ab64e59c9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\910718e4f8bc41c683d28c6b532bc215.jpg",
+      "PackagePath": "staticwebassets\\images\\socios\\910718e4f8bc41c683d28c6b532bc215.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\927a9950733e4bedb6589987c2ac9822.jpg",
+      "PackagePath": "staticwebassets\\images\\socios\\927a9950733e4bedb6589987c2ac9822.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\97e13d3281874fc8b468bc5a4c0f924c.jpg",
+      "PackagePath": "staticwebassets\\images\\socios\\97e13d3281874fc8b468bc5a4c0f924c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\98cc64fa515849bf998662dd55d59eb7.jpg",
+      "PackagePath": "staticwebassets\\images\\socios\\98cc64fa515849bf998662dd55d59eb7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\9ae69cbc52c6422bab32367f137f41b3.jpg",
+      "PackagePath": "staticwebassets\\images\\socios\\9ae69cbc52c6422bab32367f137f41b3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\a079b8ac97ef44e48a060664c5987752.jpeg",
+      "PackagePath": "staticwebassets\\images\\socios\\a079b8ac97ef44e48a060664c5987752.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\a09cfa34b44747be86120e54ee418373.jpg",
+      "PackagePath": "staticwebassets\\images\\socios\\a09cfa34b44747be86120e54ee418373.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\a8825033e2ce488f97b7acaed9b7cf9f.jpg",
+      "PackagePath": "staticwebassets\\images\\socios\\a8825033e2ce488f97b7acaed9b7cf9f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\a908e369037b43ae921a4236ada41c03.jpeg",
+      "PackagePath": "staticwebassets\\images\\socios\\a908e369037b43ae921a4236ada41c03.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\ad73eb9acbd4411c86e32eed52b9c842.jpeg",
+      "PackagePath": "staticwebassets\\images\\socios\\ad73eb9acbd4411c86e32eed52b9c842.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\ba38fcecd8f74ac4827de45447ce3a79.jpg",
+      "PackagePath": "staticwebassets\\images\\socios\\ba38fcecd8f74ac4827de45447ce3a79.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\ba6dd31e2ee34c9d965c6734daa2f33c.jpg",
+      "PackagePath": "staticwebassets\\images\\socios\\ba6dd31e2ee34c9d965c6734daa2f33c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\bb0232fca1244df396d9d6576a9146c7.jpeg",
+      "PackagePath": "staticwebassets\\images\\socios\\bb0232fca1244df396d9d6576a9146c7.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\bee5ca7f2c7946688db52d2033126ecc.jpg",
+      "PackagePath": "staticwebassets\\images\\socios\\bee5ca7f2c7946688db52d2033126ecc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\c6f2016da86b427ca2686691ba7b795d.jpg",
+      "PackagePath": "staticwebassets\\images\\socios\\c6f2016da86b427ca2686691ba7b795d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\d0079dec34eb423c9857c66af6e43d53.jpg",
+      "PackagePath": "staticwebassets\\images\\socios\\d0079dec34eb423c9857c66af6e43d53.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\d4c91d4374464fee8745eb54cf50dc15.jpg",
+      "PackagePath": "staticwebassets\\images\\socios\\d4c91d4374464fee8745eb54cf50dc15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\daa4f3fad6fa4eb8912b4503cd081004.jpg",
+      "PackagePath": "staticwebassets\\images\\socios\\daa4f3fad6fa4eb8912b4503cd081004.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\e05c2a0fcd034ad3b2dd956019eac8fe.jpg",
+      "PackagePath": "staticwebassets\\images\\socios\\e05c2a0fcd034ad3b2dd956019eac8fe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\e152790f2ba94e0b9b2b2d950cb65135.jpg",
+      "PackagePath": "staticwebassets\\images\\socios\\e152790f2ba94e0b9b2b2d950cb65135.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\e8ece8d694104894978b7e0078c9d569.jpg",
+      "PackagePath": "staticwebassets\\images\\socios\\e8ece8d694104894978b7e0078c9d569.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\images\\socios\\eae39f3f668b43b08dc240b9b97da8d9.jpg",
+      "PackagePath": "staticwebassets\\images\\socios\\eae39f3f668b43b08dc240b9b97da8d9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\js\\cargarfoto.js",
+      "PackagePath": "staticwebassets\\js\\cargarfoto.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\bruno\\Desktop\\TPFinalCe terminado\\TPFinalCe\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TPFinalCe.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TPFinalCe.props",
+      "PackagePath": "build\\TPFinalCe.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TPFinalCe.props",
+      "PackagePath": "buildMultiTargeting\\TPFinalCe.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TPFinalCe.props",
+      "PackagePath": "buildTransitive\\TPFinalCe.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

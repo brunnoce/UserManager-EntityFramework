@@ -1,0 +1,34 @@
+﻿@model TPFinalCe.Models.Disciplina
+
+@{
+    ViewData["Title"] = "Eliminar";
+}
+<link href="~/css/Estilos.css" rel="stylesheet" />
+
+
+<div class="contenedor-details-1">
+    <h1 class="h1-titulo">Desea eliminar la disciplina?</h1>
+    <div class="contenedor-details-2">
+        <div>
+            <div>
+                <p class="p-details">Disciplina:</p>
+            </div>
+            <div>
+                <p class="p-details-descripcion">@Html.DisplayFor(model => model.Nombre)</p>
+            </div>
+        </div>
+        <div class="c-s-2">
+            @*             <b> @Html.DisplayFor(model => model.Foto):</b>
+            *@            @if (!string.IsNullOrEmpty(@Model.Foto))//agregamos esto para poder validar si existe o no
+            {
+                <img class="foto-detalles" src="~/images/disciplinas/basquet.jpg" asp-append-version="true" />
+            }
+        </div>
+    </div>
+    <form class="contenedor-acciones" asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input class="btn-eliminar" type="submit" value="Eliminar" class="btn btn-danger" />
+        <a class="btn-editar" asp-action="Index">Volver</a>
+    </form>
+</div>
+
